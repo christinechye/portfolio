@@ -1,8 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Home from './pages/Home';
+import Projects from './pages/Projects';
+import Experience from './pages/Experience';
+import { BrowserRouter as Router, Route, Switch  } from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
